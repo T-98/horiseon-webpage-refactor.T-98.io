@@ -1,13 +1,18 @@
+/*clearing default browser settings*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*styling elements within the body tag*/
 body {
     background-color: #d9dcd6;
 }
 
+/*---------------------------------------------------------------------------------------------------*/
+
+/*Begin styling header and its components*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -40,6 +45,10 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/*End of styling header and its components*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
 
 a {
     color: #ffffff;
@@ -50,6 +59,7 @@ p {
     font-size: 16px;
 }
 
+/*Begin styling hero and its components*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +68,11 @@ p {
     background-size: cover;
     background-position: center;
 }
+/*End of styling hero and its components*/
 
-#float-left {
-    float: left;
-    margin-right: 25px;
-}
+/*---------------------------------------------------------------------------------------------------*/
 
-#float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/*Begin styling benefits section and its components*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,7 +100,27 @@ p {
     max-width: 150px;
 }
 
-.content-item{
+#float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+#float-right {
+    float: right;
+    margin-left: 25px;
+}
+/*End of styling benefits section and its components*/
+
+/*---------------------------------------------------------------------------------------------------*/
+
+/*Begin styling content section and its components*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content-item {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -119,7 +137,11 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
+/*End of styling content section and its components*/
 
+/*---------------------------------------------------------------------------------------------------*/
+
+/*Beginning of styling footer and its components*/
 footer {
     padding: 30px;
     clear: both;
@@ -130,3 +152,11 @@ footer {
 footer h2 {
     font-size: 20px;
 }
+
+footer a{
+    color: black;
+}
+/*End of styling footer and its components*/
+
+/*END---OF---FILE*/
+/*******************************************************************************************************/
