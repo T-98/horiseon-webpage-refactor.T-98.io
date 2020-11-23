@@ -8,8 +8,11 @@
 
 * ***style.css:*** This file contains the stylesheet for the index.html file, mainly used for the styling of the deployed webpage. The code has been modified and optimised.
 
-# App Screenshot
-![Screenshot](./assets/images/app_screenshot.png)
+# App Screenshot 1
+![Screenshot 1](./assets/images/app_screenshot.png)
+
+# App Screenshot 2
+![Screenshot 1](./assets/images/app_screenshot_2.png)
 
 
 
